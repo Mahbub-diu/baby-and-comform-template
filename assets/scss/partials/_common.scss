@@ -1,0 +1,19 @@
+a.view-all-cat-btn {
+  width: 100%;
+  height: 68px;
+  line-height: 68px;
+  background-color: #fff;
+  text-align: center;
+  position: relative;
+  display: block;
+  border-radius: 5px;
+  bottom: 0;
+  transition: bottom 0.3s ease;
+  -webkit-transition: bottom 0.3s ease;
+  text-transform: capitalize;
+  color: $text-color;
+  &:hover {
+    box-shadow: 3px 5px 8px #ccc;
+    bottom: 2px;
+  }
+}
